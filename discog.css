@@ -1,0 +1,162 @@
+body	{ 
+background: -webkit-gradient(linear, left top, right bottom, color-stop(1%,#dbdbdb), color-stop(27%,#e2e2e2), color-stop(27%,#e2e2e2), color-stop(34%,#e2e2e2), color-stop(48%,#d1d1d1), color-stop(76%,#fefefe)); 
+
+background: -moz-gradient(linear, left top, right bottom, color-stop(1%,#dbdbdb), color-stop(27%,#e2e2e2), color-stop(27%,#e2e2e2), color-stop(34%,#e2e2e2), color-stop(48%,#d1d1d1), color-stop(76%,#fefefe)); 
+
+
+background: -ie-gradient(linear, left top, right bottom, color-stop(1%,#dbdbdb), color-stop(27%,#e2e2e2), color-stop(27%,#e2e2e2), color-stop(34%,#e2e2e2), color-stop(48%,#d1d1d1), color-stop(76%,#fefefe)); 
+
+
+}
+
+div.header {
+  margin-left: -15px;
+  margin-top: -15px;
+  margin-right: -15px;
+}
+
+li {
+padding-left: 350px;
+display: inline;
+font-size: 30px;
+font-family: sans serif; 
+}
+
+nav {
+
+}
+
+:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+}
+
+a {text-decoration: none; 
+
+}
+
+@font-face {
+   font-family: sans serif;
+   src: url(fonts/Existence-Light.otf);
+}
+
+h1  {
+ padding-top: 130px;
+ font-family: sans serif;
+}
+
+.center {
+padding-left: 150px;
+}
+
+p {
+width: 2000px;
+font-family: sans serif;
+font-size: 19px;
+}
+
+
+table {
+width: 15%;
+}
+
+.row {
+padding-top: 30px;
+
+}
+
+.center2 {
+padding-left: 900px;
+}
+
+p.contact {
+text-align: center;
+
+}
+
+@media only screen  and (min-width: 540px) and (max-width: 1800px) {
+p {
+width: 1000px;
+font-family: sans serif;
+font-size: 19px;
+}
+.center {
+padding-left: 150px;
+}
+}
+
+
+
+@media only screen  and (min-width: 540px) and (max-width: 1450px) {
+p {
+width: 700px;
+font-family: sans serif;
+font-size: 19px;
+}
+.center {
+padding-left: 150px;
+}
+
+}
+.center2 {
+padding-left: 400px;
+}
+
+@media only screen  and (min-width: 340px) and (max-width: 500px) {
+p {
+width: 250px;
+font-family: sans serif;
+font-size: 13px;
+}
+
+img {
+width: 400px;
+height: 200px;
+}
+.center {
+padding-left: 150px;
+}
+
+li {
+padding-left: 0px;
+display: inline;
+font-size: 30px;
+font-family: sans serif; 
+}
+
+.rows {
+padding-top: 140px;
+padding-left: 0px;
+}
+
+.center2 {
+padding-left: 0px;
+}
+
+.center {
+padding-left: 0px;
+}
+
+}
+
+div.centeredImage
+    {
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+    }
